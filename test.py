@@ -22,7 +22,7 @@ default_args = {
     # 'end_date': datetime(2016, 1, 1),
 }
 def sleep_t():
-    time.sleep(600)
+    time.sleep(300)
 
 dag = DAG(
     'tutorial', 
